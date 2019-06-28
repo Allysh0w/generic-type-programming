@@ -1,3 +1,9 @@
+/*
+Created by Allyson Martins
+Date: 06/28/2019
+allyson.martinz@gmail.com
+*/
+
 package typed.definition
 
 import scala.concurrent.Future

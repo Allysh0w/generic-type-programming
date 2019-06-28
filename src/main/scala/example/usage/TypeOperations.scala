@@ -1,3 +1,9 @@
+/*
+Created by Allyson Martins
+Date: 06/28/2019
+allyson.martinz@gmail.com
+*/
+
 package example.usage
 
 import com.typesafe.scalalogging.LazyLogging
