@@ -48,4 +48,12 @@ object TypeOperations extends App with LazyLogging{
   notFunInput("test") //simulate success
   notFunInput((x:Int) => x + 5) //simulate error
 
+
+  private def notListEmpty[T: |¬|[List[Nothing]]#check](x: T): Unit = {
+    print("aaaaa")
+  }
+
+  notListEmpty(List(1)) // success
+  notListEmpty(List.empty) // error
+
 }
