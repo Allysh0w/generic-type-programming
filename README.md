@@ -1,15 +1,15 @@
 
 ## Usage
-¬¬[T]    = Negation from type negation
-|[T,U]   = Or operator
-¬|[T,U]  = Negation of (Or) type operation
-¬||[T,U] =  Negation of (Or) from uppertype and subtype operation
-|¬|[T]   = Negation type
-¬>>[T]   = exclusive future type
->>[T]    = Must be future of T type
-|>>[T,U] = Or operator of future type operation
-¬|>>[T,U] = Negation of (Or) from future type operation
-!>>[T] = Negation from future type operation
+- ¬¬[T]    = Negation from type negation
+- |[T,U]   = Or operator
+- ¬|[T,U]  = Negation of (Or) type operation
+- ¬||[T,U] =  Negation of (Or) from uppertype and subtype operation
+- |¬|[T]   = Negation type
+- ¬>>[T]   = exclusive future type
+- >>[T]    = Must be future of T type
+- |>>[T,U] = Or operator of future type operation
+- ¬|>>[T,U] = Negation of (Or) from future type operation
+- !>>[T] = Negation from future type operation
 
 ### Example: 
 
