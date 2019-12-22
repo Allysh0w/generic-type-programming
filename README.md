@@ -1,4 +1,5 @@
 # Generic type programming with scala
+## An approach to union type programing with scala.
 
 ## Usage
 - ¬¬[T]    = Negation from type negation
