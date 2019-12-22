@@ -13,7 +13,7 @@
 
 ### Example: 
 
-```
+```scala
 private def excludeOr[T: (String ¬| Int)#check](x:T) = x match{
     case a:String => logger.info("String => " + a)
     case b:Int => logger.info("Int => " + b)
@@ -25,7 +25,7 @@ private def excludeOr[T: (String ¬| Int)#check](x:T) = x match{
 ```
 
 Using Future: 
-```
+```scala
 private def excludeTypeOfFuture[T: (Double ¬|>> Int)#check](x:T) = x match {
     case s: Future[String] => s.map{ x => logger.info("String => " + x)}
     case i:Future[Int] => i.map{ x => logger.info("Int => " + x)}
